@@ -4,7 +4,7 @@
 template<typename T>
 class SmartPointer {
 public:
-	SmartPointer(T* rhs);
+	explicit SmartPointer(T* rhs);
 	virtual ~SmartPointer();
 	
 	inline T& operator* ();
